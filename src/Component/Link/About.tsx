@@ -1,3 +1,10 @@
+import { TextUnderFooter } from "../TextUnderFooter";
+
 export const About = () => {
-  return <h1>Page About</h1>;
+  return (
+    <>
+      <TextUnderFooter />
+      <div style={{ height: "400px" }}></div>
+    </>
+  );
 };
