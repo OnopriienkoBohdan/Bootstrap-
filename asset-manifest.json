@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bootstrap/static/css/main.44f8b8b5.css",
-    "main.js": "/bootstrap/static/js/main.29970d85.js",
+    "main.js": "/bootstrap/static/js/main.c48b5df6.js",
     "static/js/787.241534ed.chunk.js": "/bootstrap/static/js/787.241534ed.chunk.js",
     "static/media/ocean4.jpg": "/bootstrap/static/media/ocean4.47d29cb51098536346d1.jpg",
     "static/media/ocean.jpg": "/bootstrap/static/media/ocean.bf2950b7077ed14732dc.jpg",
@@ -10,11 +10,11 @@
     "static/media/ocean3.jpg": "/bootstrap/static/media/ocean3.8269a202558751dd677c.jpg",
     "index.html": "/bootstrap/index.html",
     "main.44f8b8b5.css.map": "/bootstrap/static/css/main.44f8b8b5.css.map",
-    "main.29970d85.js.map": "/bootstrap/static/js/main.29970d85.js.map",
+    "main.c48b5df6.js.map": "/bootstrap/static/js/main.c48b5df6.js.map",
     "787.241534ed.chunk.js.map": "/bootstrap/static/js/787.241534ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44f8b8b5.css",
-    "static/js/main.29970d85.js"
+    "static/js/main.c48b5df6.js"
   ]
 }
