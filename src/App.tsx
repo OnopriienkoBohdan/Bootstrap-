@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./Component/Navbar";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Navigate, Routes, Route, BrowserRouter } from "react-router-dom";
 import { Home } from "./Component/Link/Home";
 import { Users } from "./Component/Link/Users";
 import { About } from "./Component/Link/About";
@@ -13,8 +13,9 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="users/" element={<Users />} />
-          <Route path="about/" element={<About />} />
+          <Route path="/users" element={<Users />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </BrowserRouter>
